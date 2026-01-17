@@ -1,0 +1,16 @@
+import java.util.Scanner;
+class average
+{
+	public static void main(String [] args)
+	{
+		Scanner sy =new Scanner(System.in);
+		System.out.print("enter marks of maths");
+		int math=sy.nextInt();
+		System.out.println("enter marks of physics");
+		int phy=sy.nextInt();
+		System.out.println("enter marks of chemistry");
+		int che=sy.nextInt();
+		int average = (math+phy+che)/3;
+		System.out.println("average is =" + average);
+	}
+}
